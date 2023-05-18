@@ -1,0 +1,27 @@
+$(document).ready(function () {
+
+    $("a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            let hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+
+const button = document.getElementById('button')
+
+button.addEventListener('click', function () {
+    const audio = document.getElementById('music')
+
+    audio.currentTime = 0
+    audio.play()
+})
+
