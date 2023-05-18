@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Portfólio: Primeiro Trimestre</title>
+
+</head>
+
+<body>
+    <div class="header container" id="header">
+        <div class="header-container">
+            <div>
+                <h1 class="header-title-quarter">PA e PG</h1>
+                <h3 class="header-subtitle-quarter">cantinho onde eu tento explicar com minhas palavras o conteúdo
+                    estudado</h3>
+
+            </div>
+
+            <a href="../primeiroTrimestre/home.html"><button class="quarter-button">página de trimestres</button></a>
+
+        </div>
+
+        <div class="spacing">
+            <h3 class="introduction-subtitle">Definição</h3>
+
+            <div class="introduction-container">
+                <div>
+                    <p class="introduction-text-margin-top">
+                        Bom, PA e PG são progressões, ou seja, são séries númericas que ocorrem uma após a outra de
+                        forma sucessiva.
+
+                    </p>
+
+                    <p class="introduction-text">
+                        Progressão Aritmética (PA) é uma sequência numérica em que cada termo seguinte é obtido pela
+                        adição de uma constante (chamada de razão aritmética) ao termo anterior. A
+                        sequência <span class="bold"> 2, 5, 8, 11, 14, ...</span> é uma progressão aritmética, onde a
+                        razão é <span class="bold">3</span>, ou seja, os termos subsequentes serão obtidos somando 3 ao
+                        termo anterior.
+
+                    </p>
+
+                    <p class="introduction-text">
+                        Progressão Geométrica (PG) é uma sequência em que cada termo seguinte é obtido através da
+                        multiplicação de uma constante (chamada de razão geométrica) pelo termo anterior. a
+                        sequência <span class="bold"> 2, 6, 18, 54, 162, ...</span> é uma progressão geométrica, onde a
+                        razão é <span class="bold"> 3 </span> (cada
+                        termo subsequente é obtido multiplicando o termo anterior por 3).
+
+                    </p>
+
+                </div>
+
+                <img class="matematica-image" src="../images/matematica.png" alt="depresao">
+
+            </div>
+        </div>
+
+
+        <div class="spacing"></div>
+
+        <div class="center-flex">
+            <h3 class="introduction-subtitle introduction-subtitle-center">PA (Progressão Aritmética)</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                Uma sequência de números em que cada termo, a partir do segundo, é obtido somando-se ao termo
+                anterior uma constante dada 𝑟, que é chamada de razão, é conhecida como Progressão Aritmética
+                (PA).
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/pa1.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma PA é uma sequência de números em que a diferença constante entre
+                cada termo consecutivo (a partir do segundo) e o seu termo anterior é representada por 𝑟. Em
+                outras palavras, para qualquer termo 𝑎𝑛 da PA, temos que 𝑎𝑛 - 𝑎𝑛−1 = 𝑟.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/pa2.png" alt="pa1">
+            </div>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width center">
+                <b>Verifique se a sequência (1, 3, 5, 7, 9, … ) é PA e, em caso positivo,
+                    identifique o primeiro termo e a razão.</b>
+
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                A sequência é uma PA.
+
+                <br>
+                <br>
+
+                <b>O primeiro termo é 1 e a razão é 2</b>, pois a diferença entre cada termo e o termo anterior
+                é
+                sempre 2.
+
+                <br>
+                <br>
+
+                A sequência é uma PA pois cada termo é obtido por meio da soma da razão 𝑟=2 ao
+                termo anterior. O primeiro termo 𝑎1 é igual a 1, e a razão é 𝑟=2, pois para passar de 1 para
+                3, de 3 para 5, de 5 para 7 e assim por diante, adicionamos sempre 2.
+
+            </p>
+
+            <h4>Classificação</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma PA pode ser classificada em três tipos, de acordo com a natureza da
+                razão (𝑟):
+            </p>
+
+            <ul class="introduction-text introduction-text-max-width">
+                <li><b>PA crescente:</b> cada termo é maior do que o anterior, ou seja, 𝑟 > 0. Nesse tipo de PA, a
+                    medida que a sequência avança, os valores dos termos ficam cada vez maiores;</li>
+                <li><b>PA constante:</b> cada termo é igual ao anterior, então, 𝑟 = 0. Nesse tipo de PA, todos os
+                    termos são iguais, não havendo variação ao longo da sequência;</li>
+                <li><b>PA decrescente:</b> cada termo é menor que o anterior, logo, 𝑟 < 0. Nesse tipo de PA, à medida
+                        que a sequência avança, os valores dos termos ficam cada vez menores.</li>
+            </ul>
+
+            <h4>Fórmula do Termo Geral</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A fórmula do termo geral da PA é usada para calcular qualquer termo da
+                sequência, sabendo apenas o primeiro termo e a razão da PA. Basicamente, a fórmula nos ajuda a
+                determinar qual é o valor de um termo em qualquer posição da sequência, sem precisar conhecer
+                todos os termos intermediários.
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                A fórmula diz que o enésimo termo da PA é igual ao primeiro termo somado à multiplicação da
+                razão pela posição desse termo na sequência menos 1. Parece um pouco complicado à primeira
+                vista, mas na prática é bem simples.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/pa3.png" alt="pa1">
+            </div>
+
+            <h4 class="purple">IMPORTANTE!!</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="purple">1ª OBSERVAÇÃO:</b>
+                Em algumas situações, pode ser útil atribuir o índice 0 ao primeiro termo da PA, em vez de 1.
+                Isso significa que o primeiro termo da sequência será denotado por
+                𝑎0, em vez de 𝑎1, como é usualmente o caso.
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando isso acontece, a fórmula do termo geral da PA é levemente modificada. Nesse caso, ao
+                invés de <b>𝑎1 + (𝑛-1)𝑟</b>, a fórmula fica <b>𝑎0 + </b>𝑛𝑟. Isso ocorre porque, ao
+                considerar o índice 0
+                como o primeiro termo, a posição do enésimo termo se torna 𝑛, ao invés de 𝑛+1.
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="purple">2ª OBSERVAÇÃO:</b>
+                Quando estamos trabalhando com PA, podemos utilizar algumas
+                propriedades para encontrar o valor de um termo a partir de outro. Por exemplo, se quisermos
+                encontrar o valor do sétimo termo 𝑎7, podemos observar que para passar do terceiro termo 𝑎3
+                para o sétimo termo 𝑎7, avançamos quatro posições na sequência. Assim, podemos utilizar a
+                fórmula geral da PA para encontrar o valor de 𝑎7, somando quatro vezes a razão 𝑟 ao valor do
+                termo 𝑎3. Logo, temos que <b>𝑎7 = 𝑎3 + 4𝑟.</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Do mesmo jeito, se quisermos encontrar o valor do quinto termo 𝑎5, podemos observar que
+                para retroceder do termo 𝑎11 para o quinto termo 𝑎5, precisamos voltar seis
+                posições na sequência. Assim, podemos utilizar novamente a fórmula geral da PA para encontrar o
+                valor de 𝑎5, subtraindo seis vezes a razão 𝑟 do valor do termo 𝑎11. Portanto, podemos afirmar
+                que <b>𝑎5 = 𝑎11 - 6𝑟.</b>
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Qual é o 50º termo da PA (3, 5, 7, ...)?</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para encontrar o 50º termo da PA (3, 5, 7, ...), precisamos primeiro identificar o primeiro
+                termo e a razão. Observando a sequência, podemos perceber que o primeiro termo é 3 e que a
+                diferença entre cada termo e o anterior é 2. Portanto, a razão dessa PA é 2.
+
+                <br>
+                <br>
+
+                Agora podemos aplicar a fórmula do termo geral da PA, que é <b>𝑎𝑛 = 𝑎1 + (𝑛-1)𝑟</b>, em que
+                𝑎1 é o
+                primeiro termo, 𝑟 é a razão e 𝑛 é o número do termo desejado. Substituindo na fórmula, temos:
+
+                <br>
+                <br>
+
+                𝑎50 = 3 + (50-1) x 2 <br>
+                𝑎50 = 3 + 98 <br>
+                𝑎50 = 101
+
+                <br>
+                <br>
+
+                Portanto, o 50º termo da PA é igual a <b>101.</b>
+            </p>
+
+            <h4>Interpolação</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Em uma sequência de números finita, os primeiros e últimos termos são chamados de "extremos",
+                enquanto os demais são "meios". Quando queremos adicionar alguns termos intermediários entre
+                dois valores, chamamos esse processo de "interpolação" ou "intercalação". Para isso, precisamos
+                encontrar uma sequência aritmética com um número específico de termos, que inclua os valores
+                iniciais e finais. A fim de encontrar os valores intermediários, precisamos calcular a razão
+                dessa sequência aritmética.
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Interpolar 5 meios entre 1 e 2.</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para interpolar 5 meios aritméticos entre 1 e 2, primeiro precisamos encontrar a diferença entre
+                esses dois números, que é 1. Em seguida, dividimos essa diferença por 6 (o número total de
+                intervalos, incluindo os extremos), o que nos dá 1/6.
+
+                <br>
+                <br>
+
+                Então, para encontrar os 5 meios aritméticos, basta adicionar 1/6 ao número anterior a cada vez.
+                Começando com 1 + 1/6, temos 7/6, 4/3, 5/3, 11/6 e, finalmente, 3/2. Portanto, os 5 meios
+                aritméticos entre 1 e 2 são: <b>7/6, 4/3, 5/3, 11/6 e 3/2.</b>
+            </p>
+
+            <h4>Soma dos termos de uma PA finita</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A soma dos termos de uma Progressão Aritmética finita é calculada somando-se todos os seus
+                termos. Para isso, podemos usar a fórmula <b>S𝑛 = (𝑎1 + 𝑎𝑛) x 𝑛 / 2</b>, onde 𝑎1 é o
+                primeiro
+                termo, 𝑎𝑛
+                é o último termo e 𝑛 é o número de termos. Essa fórmula simplifica o cálculo da soma, que pode
+                ser bastante trabalhoso se a quantidade de termos for grande.
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Calcule a soma dos 25 termos iniciais da PA (1, 7, 13, ...).</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para calcular a soma dos 25 primeiros termos da PA (1, 7, 13, ...,)
+                precisamos encontrar a fórmula geral da PA. Para isso, usamos a fórmula <b>𝑎𝑛 = 𝑎1 +
+                    (𝑛-1)𝑟</b>.
+
+                <br>
+                <br>
+
+                Substituindo os valores que temos na fórmula, temos <b>𝑎25 = 1 + (25-1)6 = 145</b>. Portanto, o
+                vigésimo quinto termo da PA é 145.
+
+                <br>
+                <br>
+
+                Agora podemos usar a fórmula da soma dos termos de uma PA finita, <b>S𝑛 = (𝑎1 + 𝑎𝑛) x 𝑛 /
+                    2</b>,
+                onde 𝑛 é o número de termos da PA, 𝑎1 é o primeiro termo e 𝑎𝑛 é o último termo.
+
+                <br>
+                <br>
+
+                Substituindo os valores que temos na fórmula, temos <b>S25 = (1 + 145) x 25 / 2 = 1825.</b>
+                Portanto, a soma dos 25 primeiros termos da PA 1, 7, 13, ... é igual a <b>1825.</b>
+            </p>
+
+            <div class="spacing"></div>
+
+            <h2 class="purple h2-music">Relaxe e ouça uma de minhas músicas antes de prosseguir :)</h2>
+
+            <div class="pa-images">
+                <audio id="music">
+                    <source src="../musics/the art to winter.wav">
+                </audio>
+
+                <button id="button">play music</button>
+            </div>
+
+            <div class="spacing"></div>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">PG (Progressão Geométrica)</h3>
+
+            <p class="introduction-text introduction-text-max-width">
+                A Progressão Geométrica (PG) é uma sequência numérica em que cada termo, a partir do segundo, é
+                obtido pela multiplicação do seu antecessor por uma constante denominada razão (𝑞). Essa definição é
+                equivalente a dizer que o quociente entre cada termo e seu antecessor é constante e representado por
+                𝑞.
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width center">
+                <b>Verifique se a sequência (1, 2, 4, 8, 16, … ) é PG e, em caso positivo,
+                    identifique o primeiro termo e a razão.</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                A sequência é uma PG.
+
+                <br>
+                <br>
+
+                <b>O primeiro termo é 1 e a razão é 2</b>, pois cada termo subsequente é o produto do termo anterior por
+                2.
+
+                <br>
+                <br>
+
+                Podemos verificar que a razão é constante dividindo um termo pelo seu anterior. Por exemplo, 8/4 = 2 e
+                16/8 = 2.
+            </p>
+
+            <h4>Classificação</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A PG pode ser classificada de acordo com as características dos seus
+                termos e razões. As principais classificações das PGs são:
+
+            </p>
+
+            <ul class="introduction-text introduction-text-max-width">
+                <li><b>PG crescente ou decrescente:</b> dependendo se cada termo é maior ou menor que o anterior;</li>
+                <li><b>PG constante:</b> quando cada termo é igual ao anterior;</li>
+                <li><b>PG alternante:</b> quando cada termo tem sinal contrário ao do termo anterior;</li>
+                <li><b>PG estacionária:</b> quando apenas o primeiro termo é diferente de zero;</li>
+                <li><b>PG com termos positivos ou negativos:</b> dependendo se todos os termos são positivos ou
+                    negativos;
+                </li>
+                <li><b>PG com razão maior que 1 ou entre 0 e 1:</b> dependendo do valor da razão;</li>
+                <li><b>PG com razão igual a 1:</b> quando todos os termos são iguais;</li>
+                <li><b>PG com razão negativa:</b> quando todos os termos têm sinal contrário ao do primeiro termo.</li>
+            </ul>
+
+            <h4>Fórmula do Termo Geral</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A fórmula do termo geral da PG é usada para calcular qualquer termo da sequência, sabendo apenas o
+                primeiro termo e a razão da PG. Basicamente, a fórmula nos ajuda a determinar qual é o valor de um termo
+                em qualquer posição da sequência, sem precisar conhecer todos os termos intermediários.
+
+                <br>
+                <br>
+
+                A fórmula diz que o enésimo termo da PG é igual ao primeiro termo multiplicado à potenciação da razão
+                pela
+                posição desse termo na sequência menos 1. Parece um pouco complicado à primeira vista, mas na prática é
+                bem simples:
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/pg1.png" alt="pg1">
+            </div>
+
+            <h4 class="purple">IMPORTANTE!!</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="purple">1ª OBSERVAÇÃO:</b>
+                Em algumas situações, pode ser útil usar 𝑎0 para se referir ao primeiro termo de uma PG. Então, a
+                fórmula do termo geral pode ser escrita como <b>𝑎𝑛 = 𝑎1 x 𝑞<sup>𝑛 - 1</sup></b>, onde 𝑞 é a razão
+                da PG.
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="purple">2ª OBSERVAÇÃO:</b>
+                Podemos perceber que 𝑎7 é igual a 𝑎3 multiplicado por 𝑞 elevado a 4, pois para ir de 𝑎3
+                a 𝑎7, precisamos avançar 4 posições. De maneira semelhante, 𝑎5 é igual a 𝑎11 multiplicado por 𝑞
+                elevado a -6 ou 𝑎5 é igual a 𝑎11 dividido por 𝑞 elevado a 6, já que para retroceder de 𝑎11 para 𝑎5,
+                é necessário voltar 6 posições.
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Qual é o 7º termo da PG (2, 6, ...)</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para encontrar o 7º termo de uma PG é necessário conhecer a razão e o
+                primeiro termo (𝑎1).
+
+                <br>
+                <br>
+
+                No caso dado, 𝑎1 = 2 (primeiro termo) e para encontrar a razão 𝑞, podemos dividir qualquer termo pelo
+                seu antecessor.
+
+                <br>
+                <br>
+
+                6/2 = 3, portanto, r = 3.
+
+                <br>
+                <br>
+
+                A fórmula geral para encontrar o n-ésimo termo (𝑎𝑛) de uma PG é:
+
+                <br>
+                <br>
+
+                𝑎𝑛 = 𝑎1 * 𝑞<sup>𝑛-1</sup>
+
+                <br>
+
+                𝑎7 = 2 * 3<sup>7-1</sup>
+                𝑎7 = 2 * 3<sup>6</sup>
+                𝑎7 = 2 * 729
+                <b>𝑎7 = 1458</b>
+
+                <br>
+                <br>
+
+                Portanto, o 7º termo da PG (2, 6, ...) é 1458.
+
+            </p>
+
+            <h4>Interpolação</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando nos referimos a interpolar, intercalar ou inserir 𝑘 meios geométricos entre dois números 𝑎 e
+                𝑏, estamos nos referindo ao processo de obter uma Progressão Geométrica (PG) com 𝑛 = 𝑘 + 2 termos,
+                tendo 𝑎 e 𝑏 como os extremos dessa sequência. Para determinar esses termos, é necessário calcular a
+                razão entre eles.
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Interpolar 8 meios geométricos entre 5 e 18.</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para encontrar os oito meios geométricos entre 5 e 18, podemos usar a fórmula geral
+
+                <br>
+                <br>
+
+                Primeiro, encontramos a razão:
+
+                <br>
+                <br>
+
+                𝑎𝑛 = 𝑎1 * 𝑞<sup>𝑛-1</sup>
+                18 = 5 * 𝑞<sup>8</sup>
+
+                <br>
+                <br>
+
+                Dividimos ambos os lados da equação por 5 para isolar r:
+
+                <br>
+
+                𝑞<sup>8</sup> = 18/5
+
+                <br>
+                <br>
+
+                Agora, tiramos a raiz oitava de ambos os lados para encontrar o valor de 𝑞:
+
+                <br>
+
+                𝑞 = (18/5)<sup>(1/8)</sup>
+                𝑞 ≈ 1.23
+                <br>
+                <br>
+
+                Agora que temos a razão, podemos calcular os oito meios geométricos entre 5 e 18 usando a fórmula:
+
+                <br>
+
+                𝑎1 = 5 <br>
+                𝑎2 = 𝑎1 * 𝑞 <br>
+                𝑎3 = 𝑎2 * 𝑞 <br>
+                ... <br>
+                𝑎9 = 𝑎8 * 𝑞
+
+                <br>
+                <br>
+
+                Calculando esses valores, obtemos:
+
+                <br>
+
+                𝑎1 ≈ 5 <br>
+                𝑎2 ≈ 6.17 <br>
+                𝑎3 ≈ 7.62 <br>
+                𝑎4 ≈ 9.42 <br>
+                𝑎5 ≈ 11.61 <br>
+                𝑎6 ≈ 14.31 <br>
+                𝑎7 ≈ 17.67 <br>
+                𝑎8 ≈ 21.83
+
+                <br>
+                <br>
+
+                Portanto, os oito meios geométricos entre 5 e 18 são aproximadamente: <b>6.17, 7.62, 9.42, 11.61,
+                    14.31,
+                    17.67 e 21.83.</b>
+            </p>
+
+            <h4>Soma dos termos de uma PG finita</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A soma dos termos de uma Progressão Aritmética finita é calculada somando-se todos os seus termos. Para
+                isso, podemos usar a fórmula <b>S𝑛 = 𝑎1 x 1 - 𝑞<sup>𝑛</sup> / 1 - 𝑞</b>, onde 𝑎1 é o primeiro
+                termo, 𝑎𝑛
+                é
+                o último
+                termo e 𝑛 é o número de termos. Essa fórmula simplifica o cálculo da soma, que pode ser bastante
+                trabalhoso se a quantidade de termos for grande.
+            </p>
+
+            <h4 class="purple">EXEMPLO</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Calcule a soma dos 10 termos iniciais da PG (1, 3, 9, 27, ...).</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para calcular a soma dos 10 primeiros termos da PG (1, 3, 9, 27, ...) utilizamos a fórmula da soma dos
+                termos de uma PG finita:
+
+                <br>
+                <br>
+
+                S𝑛 = 𝑎1 x 1 - 𝑞<sup>𝑛</sup> / 1 - 𝑞
+
+                <br>
+                <br>
+
+                A razão é obtida através da razão entre dois termos consecutivos, por exemplo:
+
+                <br>
+
+                𝑞 = 3/1 = 9/3 = 27/9 = 3
+
+                <br>
+                <br>
+
+                Agora podemos utilizar a fórmula, substituindo 𝑎1 = 1, 𝑞 = 3 e 𝑛 =
+                10:
+
+                <br>
+
+                S10 = (1 x (1 - 3^10)) / (1 - 3)
+                S10 = (1 x (1 - 59049)) / (-2)
+                S10 = 29524
+
+                <br>
+                <br>
+
+                <b>Portanto, a soma dos 10 primeiros termos da PG (1, 3, 9, 27, ...) é 29524.</b>
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" spacing"></div>
+
+    <div class="back-top-container">
+        <a href="#header"><button class="back-top-button">voltar ao topo</button></a>
+
+    </div>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

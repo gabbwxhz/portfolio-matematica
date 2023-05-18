@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Portfólio: Primeiro Trimestre</title>
+
+</head>
+
+<body>
+    <div class="header container" id="header">
+        <div class="header-container">
+            <div>
+                <h1 class="header-title-quarter">Matrizes</h1>
+                <h3 class="header-subtitle-quarter">cantinho onde eu tento explicar com minhas palavras o conteúdo
+                    estudado</h3>
+
+            </div>
+
+            <a href="../primeiroTrimestre/home.html"><button class="quarter-button">página de trimestres</button></a>
+
+        </div>
+
+        <div class="spacing">
+            <h3 class="introduction-subtitle">Definição</h3>
+
+            <div class="introduction-container">
+                <div>
+                    <p class="introduction-text-margin-top">
+                        Matrizes são uma forma organizada de armazenar e manipular dados em formato de tabela. Elas são
+                        como uma grade composta por linhas e colunas, onde cada elemento ocupa uma posição específica.
+                        Imagine um tabuleiro de xadrez, por exemplo. Cada casa desse tabuleiro pode ser representada por
+                        uma matriz, onde a posição de cada casa é determinada pela interseção de uma linha e uma coluna.
+
+                        <br>
+                        <br>
+
+                        As matrizes são muito utilizadas em várias áreas, como matemática, programação, física, entre
+                        outras. Elas permitem organizar e calcular informações de maneira eficiente. Cada elemento de
+                        uma matriz pode ser qualquer tipo de dado, como números, letras, palavras, ou até mesmo outras
+                        matrizes.
+
+                    </p>
+
+                </div>
+
+                <img class="matematica-image" src="../images/matematica.png" alt="depresao">
+
+            </div>
+        </div>
+
+
+        <div class="spacing"></div>
+
+        <div class="center-flex">
+            <h3 class="introduction-subtitle introduction-subtitle-center">Matrizes</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                Matrizes são como tabelas bidimensionais que consistem em números organizados em linhas e colunas. Elas
+                são usadas em muitas áreas da matemática, como álgebra, cálculo, estatística e engenharia, para
+                representar e manipular dados e equações de forma mais eficiente.
+
+                <br>
+                <br>
+
+                Por exemplo, se você quiser representar as notas de um grupo de estudantes em uma disciplina, você pode
+                criar uma matriz onde cada linha representa um aluno e cada coluna representa uma avaliação, como uma
+                prova ou trabalho. Ou se você quiser resolver um sistema de equações lineares, você pode usar matrizes
+                para organizar os coeficientes e as constantes do sistema.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz1.png" alt="pa1">
+            </div>
+
+            <h4>Definição formal</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma matriz é uma tabela que contém elementos organizados em linhas e colunas, onde o número de linhas é
+                denotado por "m" e o número de colunas é denotado por "n", com ambos sendo maiores ou iguais a 1.
+
+                <br>
+                <br>
+
+                Quando o número de linhas (m) é diferente do número de colunas (n), chamamos a matriz de retangular e a
+                representamos como A(m, n) ou Amxn.
+
+                <br>
+                <br>
+
+                Quando o número de linhas é igual ao número de colunas (m = n), chamamos a matriz de quadrada e a
+                representamos como A(n, n) ou Anxn, dizendo que é de ordem n.
+
+                <br>
+                <br>
+
+                Cada elemento da matriz A é identificado por dois índices: aij. O primeiro índice (i) indica a linha em
+                que o elemento está e o segundo índice (j) indica a coluna.
+
+                <br>
+                <br>
+
+                Podemos abreviar a representação da matriz A como A = [aij], onde i varia de 1 a m e j varia de 1 a
+                n.
+                Por exemplo, se a matriz tiver 2 linhas e 3 colunas, ela será escrita como:
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz2.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Podemos determinar uma matriz por meio de uma regra de formação
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width center">
+                <b> Indique explicitamente os elementos da matriz A = (aij)
+                    3x3
+                    tal que aij = i - j
+                </b>
+
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para a matriz A de dimensões 3x3, onde cada elemento aij é dado por aij = i - j, podemos
+                calcular os
+                elementos explicitamente:
+
+                <br>
+                <br>
+
+                𝑎11 = 1 - 1 = 0 <br>
+                𝑎12 = 1 - 2 = -1 <br>
+                𝑎13 = 1 - 3 = -2
+
+                <br>
+                <br>
+
+                𝑎21 = 2 - 1 = 1 <br>
+                𝑎22 = 2 - 2 = 0 <br>
+                𝑎23 = 2 - 3 = -1
+
+                <br>
+                <br>
+
+                𝑎31 = 3 - 1 = 2 <br>
+                𝑎32 = 3 - 2 = 1 <br>
+                𝑎33 = 3 - 3 = 0
+
+                <br>
+                <br>
+
+                Portanto, a matriz A será:
+
+                <br>
+
+            <table>
+                <tr>
+                    <td>0</td>
+                    <td>-1</td>
+                    <td>-2</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>-1</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            </p>
+
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando uma matriz tem apenas uma coluna e várias linhas, chamamos de <b>matriz-coluna</b> ou
+                <b>vetor-coluna</b>. Já
+                quando uma matriz tem apenas uma linha e várias colunas, chamamos de <b>matriz-linha</b> ou
+                <b>vetor-linha</b>.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz3.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma <b>matriz nula</b> é aquela em que todos os seus elementos são zeros, não importando a linha "i" e
+                a
+                coluna
+                "j". Ou seja, é uma matriz cheia de zeros em todas as posições!
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz4.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Diagonal principal e diagonal secundária:</b> Quando olhamos para uma matriz quadrada, com a mesma
+                quantidade de linhas e colunas (chamada de ordem "n"), os elementos aij em que o número da linha é
+                igual
+                ao número da coluna formam o que chamamos de diagonal principal. Já os elementos da outra diagonal, que
+                vão na direção oposta, são chamados de diagonal secundária.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz5.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma <b>matriz diagonal</b> é uma matriz quadrada em que todos os elementos fora da diagonal principal
+                são zero,
+                ou seja, quando a linha não é igual à coluna, o valor é zero. É como se tivéssemos uma tabela quadrada
+                com zeros em todos os lugares, exceto na diagonal principal, que vai do canto superior esquerdo ao canto
+                inferior direito. É uma forma de matriz bem específica, em que os elementos não diagonais não têm
+                influência nos cálculos ou nas operações com a matriz.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz6.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                A <b>matriz identidade</b> é uma matriz especial em que os elementos na diagonal principal são todos 1,
+                enquanto os elementos fora da diagonal são todos 0. Ela é representada por "In" ou apenas por "I".
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz6.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma <b>matriz triangular superior</b> é uma matriz quadrada onde todos os elementos abaixo da diagonal
+                principal (a linha que vai do canto superior esquerdo ao canto inferior direito) são igual a zero. Em
+                outras palavras, os elementos acima da diagonal principal podem ser qualquer número, mas os elementos
+                abaixo dessa diagonal são todos zero.
+
+                <br>
+                <br>
+
+                Já uma <b>matriz triangular inferior</b> é o oposto. É uma matriz quadrada onde todos os elementos acima
+                da
+                diagonal principal são igual a zero, e os elementos abaixo dessa diagonal podem ter qualquer valor.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz7.png" alt="pa1">
+            </div>
+
+            <h4>Adição de Matrizes</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando somamos duas matrizes, como a matriz A = [aij] e a matriz B = [bij], que têm o mesmo tamanho,
+                obtemos uma nova matriz C = [cij]. Para calcular cada elemento da matriz C, simplesmente somamos os
+                elementos correspondentes de A e B, ou seja, cij = aij + bij. É importante destacar que só podemos somar
+                matrizes que tenham a mesma ordem, ou seja, o mesmo número de linhas e colunas. Da mesma forma, podemos
+                obter a diferença entre duas matrizes de mesma ordem, subtraindo os elementos correspondentes.
+            </p>
+
+
+            <h4>Propriedades</h4>
+
+            <ul class="introduction-text introduction-text-max-width">
+                <li>A adição das matrizes A e B é comutativa, ou seja, A + B = B + A.</li>
+                <li>A adição de três matrizes A, B e C, todas de mesma ordem m x n, é associativa, o que significa que A
+                    +
+                    (B + C) = (A + B) + C.</li>
+                <li>A soma da matriz A com a matriz nula (denotada por 0) resulta na própria matriz A, ou seja, A + 0 =
+                    0 +
+                    A = A.</li>
+                <li>A soma da matriz A com a sua oposta (-A) resulta na matriz nula, ou seja, A + (-A) = 0.</li>
+            </ul>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Resolva a operação de adição entre matrizes:</b>
+
+                <br>
+                <br>
+
+            <div class="flex">
+                <table>
+                    <tr>
+                        <td>-1</td>
+                        <td>0</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>1/3</td>
+                        <td>5</td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>-8</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+
+                    <b>+</b>
+
+                    <tr>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>-6</td>
+                    </tr>
+                </table>
+            </div>
+
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+
+                A matriz resultado será:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>-9</td>
+                    <td>2</td>
+                    <td>4</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>7/3</td>
+                    <td>-1</td>
+                </tr>
+            </table>
+            </p>
+
+            <h4>Multiplicação de uma Matriz por um escalar</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+
+                Se tivermos uma matriz A, representada por [aij], e multiplicarmos todos os elementos dessa matriz por
+                um número qualquer, chamado de escalar e representado por k, obteremos uma nova matriz B, representada
+                por [bij]. Cada elemento bij da matriz B será igual ao elemento correspondente da matriz A multiplicado
+                por esse escalar k.
+            </p>
+
+            <h4>Propriedades</h4>
+
+            <ul class="introduction-text introduction-text-max-width">
+                <li>O resultado de multiplicar o escalar k pela soma das matrizes A e B é igual à soma das matrizes kA e
+                    kB.</li>
+                <li>O resultado de multiplicar a soma dos escalares k1 e k2 pela matriz A é igual à soma das matrizes
+                    k1A e k2A.</li>
+                <li>O resultado de multiplicar o escalar k1 pelo produto do escalar k2 pela matriz A é igual ao produto
+                    do escalar k1k2 pela matriz A.</li>
+                <li>O produto do escalar 1 pela matriz A resulta na própria matriz A.</li>
+                <li>O produto do escalar 0 pela matriz A resulta em uma matriz composta apenas por zeros.</li>
+            </ul>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Calcule a operação:</b>
+
+                <br>
+                <br>
+
+
+            <div class="flex">
+                <b>(-3)</b>
+
+                <b>x</b>
+
+                <table>
+                    <tr>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>-4</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                A matriz resultado será:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>-6</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>-6</td>
+                    <td>12</td>
+                </tr>
+            </table>
+            </p>
+
+            <h4>Multiplicação de Matrizes</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando temos uma matriz A de tamanho (m x r) e uma matriz B de tamanho (r x n), podemos obter o produto
+                AB, que resulta em uma matriz C de tamanho (m x n). Para calcular os elementos da matriz C, destacamos a
+                linha i da matriz A e a coluna j da matriz B. Em seguida, multiplicamos os elementos correspondentes
+                dessa linha e coluna e somamos os produtos resultantes para obter o elemento cij da matriz C. É
+                importante observar que a multiplicação entre matrizes só é possível quando o número de colunas da
+                primeira matriz é igual ao número de linhas da segunda matriz.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz8.png" alt="pa1">
+            </div>
+
+            <h4>Propriedades</h4>
+
+            <ul class="introduction-text introduction-text-max-width">
+                <li>Multiplicar qualquer matriz A pela matriz identidade I resulta em A, e multiplicar a matriz
+                    identidade I por qualquer matriz A também resulta em A.</li>
+                <li>A multiplicação da matriz A pela soma das matrizes B e C é igual à soma das matrizes AB e AC
+                    (distributividade à esquerda).</li>
+                <li>A multiplicação da soma das matrizes A e B pela matriz C é igual à soma das matrizes AC e BC
+                    (distributividade à direita).</li>
+                <li>A multiplicação das matrizes AB e C é igual à multiplicação das matrizes A e BC (associatividade).
+                </li>
+                <li>A multiplicação de qualquer matriz A pela matriz nula 0 resulta em 0, e a multiplicação da matriz
+                    nula 0 por qualquer matriz A também resulta em 0.</li>
+
+            </ul>
+            <p class="introduction-text introduction-text-max-width">
+                <b class="purple">Observações:</b>
+
+                <br>
+                <br>
+
+                A ordem da multiplicação de matrizes é importante, e a multiplicação de uma matriz de ordem (m x n) por
+                uma matriz de ordem (n x p) resulta em uma matriz de ordem (m x p). Invertendo a ordem dos fatores, a
+                multiplicação pode não ser possível.
+                É possível ter a multiplicação das matrizes AB igual a 0 sem que a matriz A ou a matriz B sejam igual a
+                0.
+            </p>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Sejam as matrizes A e B dadas abaixo. Encontre a Matriz C = A*B.</b>
+
+                <br>
+                <br>
+
+            <div class="flex">
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>-2</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>-2</td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>-2</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>5</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                A matriz resultado (C) será:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>-4</td>
+                    <td>-7</td>
+                </tr>
+
+                <tr>
+                    <td>-7</td>
+                    <td>-1</td>
+                </tr>
+            </table>
+            </p>
+
+
+            <h4>Transposição de Matrizes</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A matriz transposta da matriz A, que tem tamanho m por n, é a matriz A<sup>T</sup>, com tamanho n por m.
+                Para
+                obter a matriz transposta, basta trocar as linhas pelas colunas correspondentes na matriz A.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz9.png" alt="pa1">
+            </div>
+
+            <h4>Propriedades</h4>
+
+            <ul class="introduction-text introduction-text-max-width">
+                <li>A transposta da soma de duas matrizes A e B é igual à soma das transpostas de A e B.</li>
+                <li>A transposta de um múltiplo escalar k multiplicado por uma matriz A é igual ao produto do escalar k
+                    pela transposta de A.</li>
+                <li>A transposta da transposta de uma matriz A é igual à matriz original A.</li>
+                <li>A transposta do produto de duas matrizes A e B é igual ao produto da transposta de B pela
+                    transposta de A.</li>
+            </ul>
+
+            <h4 class="purple">EXEMPLO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b>Dadas as matrizes abaixo, calcule A<sup>T</sup> - 3B</b>
+
+                <br>
+                <br>
+
+            <div class="flex">
+
+                <b>A =</b>
+
+                <table>
+
+                    <tr>
+                        <td>2</td>
+                        <td>-1</td>
+                    </tr>
+
+                    <tr>
+                        <td>0</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+
+                <b>B = </b>
+
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>-5</td>
+                    </tr>
+
+                    <tr>
+                        <td>-2</td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                A tranposta de A é:
+
+                <br>
+                <br>
+
+            <div class="flex">
+
+                <b>A<sup>T</sup> = </b>
+
+                <table>
+                    <tr>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>-1</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <p class="introduction-text introduction-text-max-width">
+                Multiplicando B por -3, temos:
+
+                <br>
+                <br>
+
+            <div class="flex">
+
+                <b>-3B = </b>
+
+                <table>
+                    <tr>
+                        <td>-3</td>
+                        <td>-12</td>
+                        <td>15</td>
+                    </tr>
+
+                    <tr>
+                        <td>-6</td>
+                        <td>9</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+
+            </div>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Agora, subtraímos A<sup>T</sup> - 3B:
+
+                <br>
+                <br>
+
+            <div class="flex">
+
+                <b>A<sup>T</sup> - 3B = </b>
+
+                <table>
+                    <tr>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>-1</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+
+                <b> - </b>
+
+                <table>
+                    <tr>
+                        <td>-3</td>
+                        <td>-12</td>
+                        <td>15</td>
+                    </tr>
+
+                    <tr>
+                        <td>-6</td>
+                        <td>9</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+
+            <p class="introduction-text introduction-text-max-width">
+                A matriz A<sup>T</sup> - 3B será:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>5</td>
+                    <td>12</td>
+                    <td>-14</td>
+                </tr>
+
+                <tr>
+                    <td>-7</td>
+                    <td>15</td>
+                    <td>4</td>
+                </tr>
+            </table>
+            </p>
+            </p>
+
+            <div class="spacing"></div>
+
+            <h2 class="purple h2-music">Assista o vídeo e relaxe antes de continuar :)</h2>
+
+            <div class="pa-images">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/REM3sD7FatY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="spacing"></div>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">Matrizes e Computação gráfica</h3>
+
+            <p class="introduction-text introduction-text-max-width">
+                Sabemos que as imagens em uma tela de computador ou televisão são compostas por pixels, que são pequenos
+                pontos. Por exemplo, uma imagem com resolução 800 x 600 tem um total de 480.000 pixels distribuídos em
+                800 colunas e 600 linhas. Esses pixels podem ser considerados elementos de uma matriz.
+
+                <br>
+                <br>
+
+                Quando um programa gráfico realiza ações como mover, espelhar, rotacionar ou redimensionar uma imagem,
+                ele está alterando a posição dos pixels que a compõem. Essas mudanças são feitas por meio de operações
+                em matrizes e são chamadas de transformações geométricas ou transformações lineares.
+
+                <br>
+                <br>
+
+                As transformações no plano são:
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz10.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Podemos representar as figuras geométricas no plano cartesiano por meio de matrizes. Para isso,
+                utilizamos as coordenadas dos vértices como as colunas das matrizes.
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz11.png" alt="pa1">
+            </div>
+
+            <h4>Translação</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para modificar a posição dos vértices da figura, somamos a cada matriz coluna que representa os vértices
+                uma matriz coluna que indica o deslocamento desejado. Por exemplo, para deslocar a figura em "a"
+                unidades no eixo x e "b" unidades no eixo y, utilizamos a matriz coluna:
+
+            <table>
+                <tr>
+                    <td>x</td>
+                </tr>
+
+                <tr>
+                    <td>y</td>
+                </tr>
+            </table>
+
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz12.png" alt="pa1">
+            </div>
+
+            <h4>Reflexão</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Podemos modificar a posição de uma figura no plano cartesiano por meio da multiplicação de sua matriz
+                correspondente por uma matriz quadrada específica que realiza reflexões. Para refletir a figura em
+                relação ao eixo y, usamos a matriz:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>-1</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Já para refletir em relação ao eixo x, utilizamos a matriz:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>0</td>
+                    <td>-1</td>
+                </tr>
+            </table>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para realizar a reflexão em ambos os eixos, usamos a matriz:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>-1</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>0</td>
+                    <td>-1</td>
+                </tr>
+            </table>
+            </p>
+
+
+            <div class="pa-images">
+                <img src="../images/matriz13.png" alt="pg1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Podemos obter a matriz de A' multiplicando a matriz A pela matriz responsável pela reflexão em relação
+                ao eixo y, ou seja:
+
+                <br>
+                <br>
+
+            <div class="flex">
+                <table>
+                    <tr>
+                        <td>-1</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+
+                <b> x </b>
+
+                <table>
+                    <tr>
+                        <td>-3</td>
+                        <td>-4</td>
+                        <td>-2</td>
+                        <td>-8</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>7</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz14.png" alt="pg1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Podemos obter a matriz de B multiplicando a matriz A pela matriz responsável pela reflexão em relação
+                ao eixo x, ou seja:
+
+                <br>
+                <br>
+
+            <div class="flex">
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>0</td>
+                        <td>-1</td>
+                    </tr>
+                </table>
+
+                <b> x </b>
+
+                <table>
+                    <tr>
+                        <td>-3</td>
+                        <td>-4</td>
+                        <td>-2</td>
+                        <td>-8</td>
+                    </tr>
+
+                    <tr>
+                        <td>-2</td>
+                        <td>-4</td>
+                        <td>-7</td>
+                        <td>-4</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+            <h4>Rotação</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para modificar a posição de uma figura no plano cartesiano realizando rotações, multiplicamos a matriz
+                representante da figura por uma matriz quadrada específica. Essa matriz de rotação é determinada pelo
+                ângulo de rotação α. Para fazer isso, podemos utilizar o seguinte modelo de matriz:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>cos α</td>
+                    <td>-sen α</td>
+                </tr>
+
+                <tr>
+                    <td>sen α</td>
+                    <td>cos α</td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+
+            <p class="introduction-text introduction-text-max-width">Basta substituir o ângulo de rotação α na matriz
+                acima para obter a matriz de rotação desejada.</p>
+
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz15.png" alt="pg1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                A figura A foi girada em 180° no sentido anti-horário em torno da origem (0,0), resultando na figura C.
+
+                <br>
+                <br>
+
+                Nesse caso, a matriz associada à figura C é obtida multiplicando a matriz A pela seguinte matriz:
+
+                <br>
+                <br>
+
+            <table>
+                <tr>
+                    <td>-1</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>0</td>
+                    <td>-1</td>
+                </tr>
+            </table>
+
+            <p class="introduction-text introduction-text-max-width">
+                Que é correspondente a:
+            </p>
+
+            <br>
+            <br>
+
+            <table>
+                <tr>
+                    <td>cos α</td>
+                    <td>-sen α</td>
+                </tr>
+
+                <tr>
+                    <td>sen α</td>
+                    <td>cos α</td>
+                </tr>
+            </table>
+
+            <p class="introduction-text introduction-text-max-width">
+                Ou seja:
+            </p>
+
+            <br>
+            <br>
+
+            <div class="flex">
+                <table>
+                    <tr>
+                        <td>-1</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>0</td>
+                        <td>-1</td>
+                    </tr>
+                </table>
+
+                <b> x </b>
+
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+
+            </p>
+
+            <h4>Escala</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Para modificar o tamanho de uma figura no plano cartesiano, multiplicamos a matriz representante da
+                figura por uma matriz quadrada específica. Essa matriz de escala permite controlar o aumento ou
+                diminuição no sentido do eixo x e do eixo y.
+
+                <br>
+                <br>
+
+                Podemos definir um valor Sx para o aumento ou diminuição no eixo x e um valor Sy para o aumento ou
+                diminuição no eixo y. Para fazer isso, utilizamos a matriz:
+
+                <br>
+                <br>
+
+               <table>
+                <tr>
+                    <td>Sx</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>0</td>
+                    <td>Sy</td>
+                </tr>
+               </table>
+
+                <br>
+                <br>
+
+               <p class="introduction-text introduction-text-max-width">Quando desejamos ampliar a imagem na mesma escala em ambos os eixos, realizando uma duplicação de suas
+                dimensões, por exemplo, é o mesmo que multiplicar todos os elementos da matriz dos vértices pelo escalar
+                2.</p> 
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz16.png" alt="pg1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Podemos aplicar a transformação de escala a todos os pontos P(x, y) da figura em 100%. Aumentar em 100%
+                nas direções dos eixos x e y significa multiplicar as coordenadas x e y por 2. Assim Sx = 2 e Sy = 2:
+
+                <br>
+                <br>
+
+            <div class="flex">
+                <b>A' = </b>
+
+                <table>
+                    <tr>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>0</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+
+                <b>x</b>
+
+                <table>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>6</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>6</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+
+            <div class="pa-images">
+                <img src="../images/matriz17.png" alt="pg1">
+            </div>
+
+    <div class=" spacing"></div>
+
+    <div class="back-top-container">
+        <a href="#header"><button class="back-top-button">voltar ao topo</button></a>
+
+    </div>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
