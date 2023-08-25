@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Portfólio: Primeiro Trimestre</title>
+
+</head>
+
+<body>
+    <div class="header container" id="header">
+        <div class="header-container">
+            <div>
+                <h1 class="header-title-quarter">Determ. 4x4</h1>
+                <h3 class="header-subtitle-quarter">cantinho onde eu tento explicar com minhas palavras o conteúdo
+                    estudado</h3>
+
+            </div>
+
+            <a href="../segundoTrimestre/home.html"><button class="quarter-button">página de trimestres</button></a>
+
+        </div>
+
+        <div class="spacing">
+            <h3 class="introduction-subtitle">Definição</h3>
+
+            <div class="introduction-container">
+                <div>
+                    <p class="introduction-text-margin-top">
+                        Os determinantes 4x4 são conceitos matemáticos que estão ligados a matrizes quadradas de ordem
+                        4. Uma matriz é basicamente uma tabela retangular de números organizados em linhas e colunas. No
+                        caso das matrizes quadradas, elas têm o mesmo número de linhas e colunas.
+
+                    </p>
+
+                    <p class="introduction-text">
+                        Calcular o determinante de uma matriz 4x4 é um pouco mais complexo do que calcular o
+                        determinante de matrizes menores, como 2x2 ou 3x3. Isso porque envolve mais operações e é
+                        necessário usar uma fórmula específica para isso. A fórmula envolve somas e subtrações
+                        ponderadas dos produtos dos elementos da matriz.
+                    </p>
+
+                    <p class="introduction-text">
+                        Para descobrir o determinante de matrizes maiores que 3x3, normalmente usamos os Teoremas de
+                        Laplace ou a Regra de Chió. Mas hoje, vamos focar apenas na Regra de Chió durante esta aula.
+                    </p>
+
+                </div>
+
+                <img class="matematica-image" src="../images/matematica.png" alt="depresao">
+
+            </div>
+        </div>
+
+
+        <div class="spacing"></div>
+
+        <div class="center-flex">
+            <h3 class="introduction-subtitle introduction-subtitle-center">Regra de Chió</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                Vamos dar uma olhada nessa regra bem útil que nos ajuda a calcular o determinante de uma matriz de
+                tamanho 𝑛, como 4x4, usando uma matriz um pouco menor de tamanho (𝑛 - 1), como 3x3. Isso significa que
+                podemos transformar a matriz maior em uma menor com o mesmo determinante. E podemos continuar esse
+                processo, reduzindo a matriz para tamanhos ainda menores até chegarmos a uma matriz 2x2, cujo
+                determinante podemos calcular mais facilmente.
+
+                <br>
+                <br>
+
+                Mas, antes de tudo, há uma condição importante: o valor <b class="bold">𝑎11 (primeiro elemento da
+                    matriz) precisa ser
+                    igual a 1.</b> Se não for, temos algumas opções para fazer isso acontecer. Podemos trocar as linhas
+                da
+                matriz ou usar o Teorema de Jacob para ajustar o valor de 𝑎11 para 1. Isso nos ajuda a simplificar os
+                cálculos ao longo do processo.
+
+                <br>
+                <br>
+
+                Uma condição importante é que o elemento 𝑎11 deve ser igual a 1. Se 𝑎11 não for igual a 1, podemos
+                usar propriedades para trocar as linhas ou aplicar o Teorema de Jacob para ajustar 𝑎11 para que seja
+                igual a 1.
+            </p>
+
+            <h4 class="purple">Passo a passo da Regra de Chió:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">1° -</b> Começamos assegurando que o elemento 𝑎11 seja igual a 1. Depois, eliminamos a
+                primeira linha e a
+                primeira coluna da matriz.
+
+                <br>
+                <br>
+
+                <b class="bold">2° -</b> Para cada elemento da matriz "nova", subtraímos o resultado do produto dos
+                elementos localizados nas
+                extremidades da linha e da coluna a que o elemento pertence.
+
+                <br>
+                <br>
+
+                <b class="bold">3° -</b> Com as diferenças calculadas, construímos uma nova matriz de tamanho (n - 1) e
+                determinamos seu
+                determinante. Esse determinante resultante será igual ao determinante da matriz original, denotada por
+                M.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/determ 1.png">
+            </div>
+
+            <h4 class="purple">Exemplo:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Encontrar o determinante da matriz abaixo:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/determ 2.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Primeiramente vamos escolher uma linha ou coluna. Escolhemos a primeira linha.
+
+                <br>
+                <br>
+
+                Após isso, para cada linha escolhida , remova a linha e a coluna desse elemento, formando uma submatriz.
+                Por exemplo, se escolhermos o primeiro elemento da primeira linha (1), a submatriz será:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/determ 3.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Calcule o determinante desta submatriz e multiplique pelo elemento escolhido. Repita este processo para
+                todos os elementos da linha ou coluna escolhida.
+
+                <br>
+                <br>
+
+                Some todos os valores calculados, alternando os sinais (+ - + - …).
+            </p>
+
+            <div class="pa-images">
+                <img src="images/determ 4.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                O determinante será <b class="bold">-95</b>
+            </p>
+
+            <span class="spacing"></span>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">Equações Matriciais</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                Quando estamos lidando com equações, nosso objetivo principal é descobrir o valor que não conhecemos,
+                geralmente chamado de "x". No mundo das equações que envolvem matrizes, esse valor desconhecido se torna
+                uma matriz e costuma ser chamado de "X".
+
+                <br>
+                <br>
+
+                De maneira simples, a ideia para resolver equações com matrizes é parecida com o que fazemos para
+                resolver equações normais com números: queremos fazer operações para isolar a matriz que não sabemos.
+                Mas trabalhar com matrizes tem algumas regras próprias, e é isso que vamos aprender agora.
+
+                <br>
+                <br>
+
+                Resolver equações com matrizes segue um método bastante similar ao que já conhecemos, mas com algumas
+                considerações especiais relacionadas às propriedades das operações matriciais. Nem todas as matrizes
+                podem ser multiplicadas entre si e nem todas possuem uma matriz inversa, o que é importante ter em
+                mente.
+            </p>
+
+            <h4 class="purple">Exemplo:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Ache a matriz X na equação 2 * A + B = X, com a informação de que:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/determ 5.webp" alt="pa1">
+            </div>
+
+            <small>Fonte: Brasil Escola</small>
+
+            <p class="introduction-text introduction-text-max-width">
+                O diferencial das equações que conhecíamos para as equações com matrizes está nesse maior cuidado ao
+                isolarmos a incógnita.
+            </p>
+
+        </div>
+    </div>
+
+    <div class=" spacing"></div>
+
+    <div class="back-top-container">
+        <a href="#header"><button class="back-top-button">voltar ao topo</button></a>
+
+    </div>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

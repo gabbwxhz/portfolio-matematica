@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Portfólio: Primeiro Trimestre</title>
+
+</head>
+
+<body>
+    <div class="header container" id="header">
+        <div class="header-container">
+            <div>
+                <h1 class="header-title-quarter">Sist. Lineares</h1>
+                <h3 class="header-subtitle-quarter">cantinho onde eu tento explicar com minhas palavras o conteúdo
+                    estudado</h3>
+
+            </div>
+
+            <a href="../segundoTrimestre/home.html"><button class="quarter-button">página de trimestres</button></a>
+
+        </div>
+
+        <div class="spacing">
+            <h3 class="introduction-subtitle">Definição</h3>
+
+            <div class="introduction-container">
+                <div>
+                    <p class="introduction-text-margin-top">
+                        Um sistema linear é como um conjunto de pistas matemáticas que nos guiam na busca por soluções
+                        para problemas envolvendo múltiplas incógnitas. Imagine um quebra-cabeça onde cada peça é uma
+                        equação linear, ou seja, uma expressão matemática simples que liga diferentes variáveis.
+
+                    </p>
+
+                    <p class="introduction-text">
+                        Resolver um sistema linear significa encontrar os valores dessas variáveis que encaixam
+                        perfeitamente em todas as equações, formando um quadro coerente de respostas. Essa ferramenta
+                        matemática é fundamental em várias áreas, desde a física à engenharia, e nos permite decifrar
+                        relações complexas entre quantidades desconhecidas, simplificando o entendimento e a resolução
+                        de problemas da vida real.
+                    </p>
+                </div>
+
+                <img class="matematica-image" src="../images/matematica.png" alt="depresao">
+
+            </div>
+        </div>
+
+
+        <div class="spacing"></div>
+
+        <div class="center-flex">
+            <h3 class="introduction-subtitle introduction-subtitle-center">Equações Lineares</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                São equações que envolvem uma, duas, três ou mais incógnitas, todas com expoente 1 (um), e são termos
+                simples. Isso significa que não podem existir incógnitas com expoente 2, 3, 4 e assim por diante, nem
+                termos mistos como 2xy. O formato geral é 𝑎1𝑥1 + 𝑎2𝑥2 + 𝑎3𝑥3 + ⋯ + 𝑎𝑛𝑥𝑛 + 𝑏 = 0.
+
+                <br>
+                <br>
+
+                Em detalhes:
+
+                Os coeficientes 𝑎1, 𝑎2, ..., 𝑎𝑛 são números reais.
+                As incógnitas são 𝑥1, 𝑥2, ..., 𝑥𝑛.
+                𝑏 é o termo independente.
+
+                <br>
+                <br>
+
+                <b class="bold">Exemplos de equações lineares:</b>
+
+                <br>
+                <br>
+
+                2𝑥 + 4𝑦 - 𝑧 = 4
+                -3𝑝 + 4𝑞 - 1 = 0
+                2𝑚/3 + 𝑛/5 = 1
+
+                <br>
+                <br>
+
+                <b class="bold">Não são equações lineares:</b>
+
+                <br>
+                <br>
+
+                3𝑥^2 - 4𝑥 + 5 = 0
+                𝑥^4 + 2𝑥^2 + 4 = 0
+                2𝑥 + 3𝑦^3 = 2
+                3𝑥𝑦 + 2𝑥 - 𝑦 = 2
+
+                <br>
+                <br>
+
+                A solução de uma equação linear é uma sequência de números reais que, quando substituídos nas
+                incógnitas, tornam a igualdade verdadeira.
+            </p>
+
+            <h4 class="purple">Exemplo:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold"> 𝑥 + 𝑦 = 10</b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Isolamos uma das variáveis em termos da outra. Neste caso, podemos isolar 𝑥:
+
+                <br>
+                <br>
+
+                <b class="bold">𝑥 = 10 - 𝑦</b>
+
+                <br>
+                <br>
+
+                Agora, vamos resolver essa equação usando um sistema linear. Apesar de ser uma única equação, podemos
+                tratar isso como um sistema linear de uma equação, considerando que temos duas variáveis.
+
+                <br>
+                <br>
+
+                Vamos reescrever a equação original para facilitar a notação:
+
+                <br>
+                <br>
+
+                <b class="bold"> 𝑥 + 𝑦 = 10</b>
+
+                <br>
+                <br>
+
+                Agora, podemos criar um sistema linear com essa única equação:
+
+                <br>
+                <br>
+
+                <b class="bold"> {
+                    𝑥 + 𝑦 = 10</b>
+
+                <br>
+                <br>
+
+                Essa é uma maneira de expressar a equação em formato de sistema linear. Agora, vamos encontrar a
+                solução. Neste caso, como temos apenas uma equação, podemos resolver diretamente.
+
+                <br>
+                <br>
+
+                Usando a expressão que encontramos anteriormente para 𝑥:
+
+                <br>
+                <br>
+
+                <b class="bold"> 𝑥 = 10 - 𝑦</b>
+
+                <br>
+                <br>
+
+                Substituímos essa expressão na equação original:
+
+                <br>
+                <br>
+
+                <b class="bold"> (10 - 𝑦) + 𝑦 = 10</b>
+
+                <br>
+                <br>
+
+                Simplificando:
+
+                <br>
+                <br>
+
+
+                <b class="bold"> 10 - 𝑦 + 𝑦 = 10</b>
+
+                <br>
+                <br>
+
+                Os termos -𝑦 e 𝑦 se cancelam, e obtemos:
+
+                <br>
+                <br>
+
+                <b class="bold"> 10 = 10</b>
+
+                <br>
+                <br>
+
+                Essa equação é verdadeira, o que significa que qualquer valor que atribuirmos a 𝑥 e 𝑦 que
+                satisfaça a
+                relação 𝑥 + 𝑦 = 10 será uma solução para essa equação.
+
+                <br>
+                <br>
+
+                Portanto, a solução desse sistema linear é um conjunto infinito de pontos no plano (𝑥, 𝑦), onde a
+                soma
+                de 𝑥 e 𝑦 é igual a 10. Por exemplo, (5, 5), (6, 4), (7, 3), etc., são soluções possíveis.
+            </p>
+
+            <h4 class="bold">Intepretação geométrica das equações lineares</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando temos equações com duas incógnitas, elas formam linhas no gráfico. As soluções dessas equações
+                são muitos pares de números (x, y), ou seja, uma infinidade de pontos que estão na linha.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 1.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando temos equações com três incógnitas, elas mostram planos no espaço. As respostas para essas
+                equações são muitos conjuntos de três números (x, y, z), o que significa que há muitos pontos que se
+                encaixam nesse plano.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 2.png" alt="pa1">
+            </div>
+
+            <span class="spacing"></span>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">Sistemas Lineares</h3>
+
+            <p class="introduction-text introduction-text-max-width">
+                Um sistema de equações é um grupo de equações lineares que compartilham as mesmas variáveis. Geralmente,
+                resolvemos esses sistemas para encontrar valores que satisfaçam todas as equações ao mesmo tempo. Isso
+                nos ajuda a entender as relações entre várias quantidades desconhecidas em um problema.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 3.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Um sistema é chamado de "2x2" quando compreende duas equações e duas incógnitas, "3x3" quando envolve
+                três equações e três incógnitas, "2x4" quando possui duas equações e quatro incógnitas, e assim por
+                diante.
+            </p>
+
+            <h4 class="bold">A solução de um sistema linear</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Quando uma sequência de números atende a todas as equações do sistema.
+                Por exemplo, o par ordenado (4, 1) é uma solução do sistema:
+
+                <br>
+                <br>
+
+                <b class="bold">3x + 5y = 4</b>
+                <b class="bold">x + y = 1</b>
+
+                <br>
+                <br>
+
+                Isso porque esse par ordenado satisfaz ambas as equações.
+            </p>
+
+            <h4 class="bold">Classificação de um sistema quanto às soluções</h4>
+
+            <div class="pa-images">
+                <img src="images/lineares 4.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Essa categoria de sistemas é amplamente abordada no ensino básico de matemática. Vamos reexaminar as
+                duas abordagens mais comuns para resolver esses tipos de sistemas: o Método da Adição e o Método da
+                Substituição.
+
+                <br>
+                <br>
+
+                <b class="bold">Método da Adição:</b> Nesse método, somamos ou subtraímos as equações do sistema para
+                eliminar uma das
+                incógnitas, facilitando a determinação das soluções restantes.
+
+                <br>
+                <br>
+
+                <b class="bold">Método da Substituição:</b> Nessa abordagem, isolamos uma das incógnitas em uma das
+                equações e substituímos
+                essa expressão em outra equação do sistema, reduzindo-o a uma única equação com uma única incógnita, que
+                pode ser facilmente resolvida.
+
+            </p>
+
+            <h4 class="purple">Exemplo</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">
+                    2𝑥 + 3𝑦 = 19
+                    𝑥 - 𝑦 = -3
+                </b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Vamos isolar 𝑥 na segunda equação:
+
+                <br>
+                <br>
+
+                <b class="bold">𝑥 = 𝑦 - 3</b>
+
+                <br>
+                <br>
+
+                Substituir o valor de 𝑥 na primeira equação:
+
+                <br>
+                <br>
+
+                <b class="bold">2(𝑦 - 3) + 3𝑦 = 19 <br>
+                    2𝑦 - 6 + 3𝑦 = 19 <br>
+                    5𝑦 - 6 = 19 <br>
+                    5𝑦 = 25 <br>
+                    𝑦 = 5
+                </b>
+
+                <br>
+                <br>
+
+                Substituir o valor de 𝑦 na equação para encontrar o valor de 𝑥:
+
+                <br>
+                <br>
+
+                <b class="bold"> 𝑥 = 5 - 3
+                    𝑥 = 2
+                </b>
+
+                <br>
+                <br>
+
+                Então, a solução do sistema é <b class="bold">𝑥 = 2 e 𝑦 = 5.</b>
+
+                <br>
+                <br>
+
+                Portanto, as incógnitas 𝑥 e 𝑦 têm os valores 2 e 5, respectivamente, que satisfazem ambas as equações
+                do sistema
+            </p>
+
+            <h4 class="bold">Visualização geométrica de sistemas lineares</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Resolver um sistema 2x2 significa encontrar onde duas retas se encontram, as quais são representadas
+                pelas equações do sistema. Isso pode resultar em três possíveis situações diferentes. Abaixo, você pode
+                ver imagens criadas no Geogebra (da professora, é obvio) a partir dos exemplos anteriores.
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+
+                <b class="bold">Retas que se Cruzam (SPD):</b> elas se encontram em um único ponto de interseção. Isso é
+                demonstrado na representação gráfica do exemplo 2 (a).
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 5.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+
+                <b class="bold">Retas Paralelas (SPI):</b> elas estão alinhadas e nunca se encontram, resultando em
+                uma infinidade de pontos em comum. Isso é ilustrado na representação gráfica do exemplo 2 (b).
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 6.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+
+                <b class="bold">Retas Paralelas (SI):</b> elas nunca se encontram, não compartilhando nenhum ponto em
+                comum. Isso é representado na visualização gráfica do exemplo 2 (c).
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 7.png" alt="pa1">
+            </div>
+
+            <span class="spacing"></span>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">Relação entre sistemas e matrizes</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                Dá para mostrar um sistema usando multiplicação de matrizes. Vamos entender isso melhor com alguns
+                exemplos:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 8.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                A equação matricial é representada como A * X = B
+            </p>
+
+            <h4 class="bold">Uso de determinantes</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                O determinante da matriz quadrada incompleta (matriz dos coeficientes das incógnitas) na equação
+                matricial
+                nos dá informações sobre o tipo de solução que o sistema possui.
+
+                <br>
+                <br>
+
+                Quando a matriz incompleta é quadrada, é possível calcular seu determinante.
+
+                <br>
+                <br>
+
+                Se o determinante (D) for diferente de zero: <b class="bold">Sistema SPD → Retas que se cruzam.</b> <br>
+                Se o determinante (D) for igual a zero: <b class="bold">Sistema SPI ou SI → Retas coincidentes ou
+                    paralelas.</b>
+
+                <br>
+                <br>
+
+                Podemos confirmar isso:
+            </p>
+
+            <h4 class="purple">OBSERVAÇÃO:</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">Se o determinante de uma matriz for igual a zero, como podemos distinguir se será um
+                    Sistema Possível e
+                    Indeterminado (SPI) ou um Sistema Impossível (SI)?</b>
+
+                <br>
+                <br>
+
+                Nesse caso, será necessário resolver o sistema e analisar os resultados obtidos.
+
+                <br>
+                <br>
+
+                Se as equações resultarem em identidades matemáticas, teremos um SPI. <br>
+                Se encontrarmos alguma contradição matemática, teremos um SI.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 9.png" alt="pa1">
+            </div>
+
+            <span class="spacing"></span>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">Sistemas Lineares 3x3</h3>
+
+            <p class="introduction-text introduction-text-max-width">
+                Um sistema linear 3x3 consiste em três equações com três incógnitas. Cada uma dessas equações pode ser
+                visualizada geometricamente como um plano. Primeiro, vamos explorar a disposição dos planos com base na
+                classificação dos sistemas e, posteriormente, examinaremos as abordagens para resolver esses sistemas.
+
+                <br>
+                <br>
+
+                Interpretação Geométrica de Sistemas Lineares 3x3:
+                Resolver um sistema 3x3 envolve encontrar um ponto de interseção ou uma coleção de pontos onde três
+                planos, representados pelas equações lineares do sistema, se encontram.
+
+                <br>
+                <br>
+
+                Vamos explorar as diversas posições que os planos podem adotar, conforme os três tipos de soluções: SPD,
+                SPI e SI.
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">Um sistema é considerado SPD quando os três planos se encontram em um único ponto de
+                    interseção:</b>
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 10.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold"> Um sistema será SPI quando a posição dos planos determinarem infinitos
+                    pontos em comum:</b>
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 11.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold"> Um sistema se torna SI quando não há pontos que pertençam simultaneamente aos três
+                    planos.</b>
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 12.png" alt="pa1">
+            </div>
+
+            <h4 class="bold">Método da Substituição/Adição</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Os métodos de substituição ou adição funcionam de maneira parecida com os sistemas 2x2.
+
+                <br>
+                <br>
+
+                Com o método de substituição, você escolhe uma das equações, isola uma das incógnitas e coloca esse
+                valor
+                nas outras equações.
+
+                <br>
+                <br>
+
+                No método de adição, você pega duas equações e faz uma mudança em uma delas para que uma das incógnitas
+                se
+                cancele quando as equações são somadas. Depois, escolhe mais duas equações (que você ainda não usou) e
+                repete esse processo.
+
+            </p>
+
+            <h4 class="purple">Exemplo</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">x + y + z = 6 <br>
+                    2x - y + z = 3 <br>
+                    x - 3y = -7
+                </b>
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+
+                Isolar "x" na Equação 3:
+
+                <br>
+                <br>
+
+                x = -7 + 3y
+
+                <br>
+                <br>
+
+                Substituir a expressão de "x" na Equação 1:
+
+                <br>
+                <br>
+
+                x + y + z = 6 <br>
+                (-7 + 3y) + y + z = 6 <br>
+                -7 + 4y + z = 6 <br>
+                4y + z = 13 <br>
+                z = 13 - 4y
+
+                <br>
+                <br>
+
+                Substituir as expressões de "x" e "z" na Equação 2:
+
+                <br>
+                <br>
+
+                2x - y + z = 3 <br>
+                2(-7 + 3y) - y + (13 - 4y) = 3 <br>
+                -14 + 6y - y + 13 - 4y = 3 <br>
+                6y - y - 4y = 3 + 14 - 13 <br>
+                y = 4
+
+                <br>
+                <br>
+
+                Substituir o valor de "y" na Equação 3:
+
+                <br>
+                <br>
+
+                x - 3y = -7 <br>
+                x - 3 * 4 = -7 <br>
+                x - 12 = -7 <br>
+                x = -7 + 12 <br>
+                x = 5
+
+                <br>
+                <br>
+
+                Substituir o valor de "y" encontrado nas expressões de "x" e "z":
+
+                <br>
+                <br>
+
+                z = 13 - 4y <br>
+                z = 13 - 4 * 4 <br>
+                z = -3
+
+                <br>
+                <br>
+
+                Portanto, a solução do sistema de equações é:
+
+                <br>
+                <br>
+
+                <b class="bold">
+                    x = 5 <br>
+                    y = 4 <br>
+                    z = -3
+                </b>
+            </p>
+
+            <h4 class="purple">Regra de Cramer</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                A Regra de Cramer é aplicável a sistemas lineares em que o número de incógnitas é igual ao número de
+                equações e o determinante da matriz dos coeficientes não é zero, o que indica que o sistema é
+                linearmente independente e possui solução única. Nesse contexto, podemos utilizar os determinantes para
+                encontrar a solução do sistema. A regra opera da seguinte maneira:
+            </p>
+
+            <p class="introduction-text introduction-text-max-width">
+                Seja o sistema linear dado por:
+
+                <br>
+                <br>
+
+                <b class="bold">𝑎1𝑥 + 𝑏1𝑦 + 𝑐1𝑧 = 𝑑1 <br>
+                    𝑎2𝑥 + 𝑏2𝑦 + 𝑐2𝑧 = 𝑑2 <br>
+                    𝑎3𝑥 + 𝑏3𝑦 + 𝑐3𝑧 = 𝑑3
+                </b>
+
+                <br>
+                <br>
+
+                O valor de cada incógnita será:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 13.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Sendo D o determinante da matriz incompleta, com os coeficientes de x, y e z.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 14.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Os valores de 𝐷𝑥,𝐷𝑦 𝑒 𝐷𝑧
+                são encontrados substituindo a coluna dos coeficientes
+                de x, y ou z pelos termos independentes da matriz
+            </p>
+
+            <div class="pa-images">
+                <img src="images/lineares 15.png" alt="pa1">
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class=" spacing"></div>
+
+    <div class="back-top-container">
+        <a href="#header"><button class="back-top-button">voltar ao topo</button></a>
+
+    </div>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

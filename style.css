@@ -110,6 +110,11 @@ b {
     padding: 8px 30px;
 }
 
+small{
+    color: aliceblue;
+    margin-top: 5px;
+}
+
 .container {
     width: 1100px;
     margin: 0 auto;
@@ -336,6 +341,7 @@ b {
     align-items: center;
     justify-content: center;
 }
+
 
 @media (max-width: 1200px) {
     .container {

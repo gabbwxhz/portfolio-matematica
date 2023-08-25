@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Portfólio: Primeiro Trimestre</title>
+
+</head>
+
+<body>
+    <div class="header container" id="header">
+        <div class="header-container">
+            <div>
+                <h1 class="header-title-quarter">Criptografia</h1>
+                <h3 class="header-subtitle-quarter">cantinho onde eu tento explicar com minhas palavras o conteúdo
+                    estudado</h3>
+
+            </div>
+
+            <a href="../segundoTrimestre/home.html"><button class="quarter-button">página de trimestres</button></a>
+
+        </div>
+
+        <div class="spacing">
+            <h3 class="introduction-subtitle">Definição</h3>
+
+            <div class="introduction-container">
+                <div>
+                    <p class="introduction-text-margin-top">
+                        A matriz inversa tem várias aplicações em diversas áreas da matemática e da ciência, incluindo a
+                        resolução de sistemas de equações lineares, transformações geométricas, análise de circuitos
+                        elétricos, e muitas outras. No contexto da criptografia, a matriz inversa desempenha um papel
+                        importante em alguns métodos de criptografia, como no caso do uso de matrizes para realizar
+                        operações de mistura e embaralhamento de dados.
+
+                        <br>
+                        <br>
+
+                        A matriz inversa é relevante na criptografia usando transformações lineares, como na
+                        criptografia de Hill, onde uma matriz-chave transforma texto claro em cifrado. A segurança
+                        depende de calcular a matriz inversa da matriz-chave, mas isso não é suficiente em sistemas
+                        modernos. Métodos como RSA e AES usam propriedades matemáticas complexas, como fatorização e
+                        operações bitwise, para segurança. A matriz inversa é um componente específico, não central na
+                        maioria dos sistemas criptográficos.
+                    </p>
+                </div>
+
+                <img class="matematica-image" src="../images/matematica.png" alt="depresao">
+
+            </div>
+        </div>
+
+
+        <div class="spacing"></div>
+
+        <div class="center-flex">
+            <h3 class="introduction-subtitle introduction-subtitle-center">Matriz Inversa</h3>
+
+            <p class="introduction-text-margin-top introduction-text-max-width">
+                Dada uma matriz quadrada A de ordem n, a sua matriz inversa é denotada por A^(-1) e tem a propriedade de
+                que o produto da matriz A com sua matriz inversa resulta na matriz identidade de mesma ordem:
+
+                <br>
+                <br>
+
+                <b class="bold">A ∙ A^(-1) = A^(-1) ∙ A = I,</b>
+
+                <br>
+                <br>
+
+                onde I representa a matriz identidade correspondente à ordem de A.
+
+                <br>
+                <br>
+
+                A existência da matriz inversa é determinada pelo valor do determinante da matriz A. Se o determinante
+                for diferente de zero, A é considerada invertível e terá uma matriz inversa única. A matriz inversa é
+                fundamental para desfazer operações de multiplicação por A, sendo extremamente útil em sistemas de
+                equações lineares, transformações lineares e em diversos contextos da matemática e ciência.
+            </p>
+
+            <h4 class="bold">A inversa de uma matriz de ordem 2</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma matriz inversa de ordem 2 é uma matriz quadrada de tamanho 2x2 que possui uma propriedade especial
+                quando multiplicada pela matriz original, resultando na matriz identidade de ordem 2x2. Em outras
+                palavras, se você tem uma matriz A de ordem 2x2 e existe outra matriz B de ordem 2x2, chamada matriz
+                inversa de A.
+
+                <br>
+                <br>
+
+                Então, B é a matriz inversa de A. No entanto, nem todas as matrizes de ordem 2x2 têm uma matriz inversa.
+                Para que a matriz A tenha uma matriz inversa, seu determinante (ad-bc) deve ser diferente de zero.
+            </p>
+
+            <h4 class="bold">A inversa de uma matriz de ordem 3</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                Uma matriz inversa de ordem 3 é uma matriz quadrada de tamanho 3x3 que possui a propriedade especial de,
+                quando multiplicada pela matriz original, resultar na matriz identidade de ordem 3x3. Em termos simples,
+                se você tem uma matriz A de ordem 3x3 e existe outra matriz B de ordem 3x3, conhecida como a matriz
+                inversa de A.
+
+                <br>
+                <br>
+
+                Então, B é a matriz inversa de A. No entanto, nem todas as matrizes de ordem 3x3 possuem uma matriz
+                inversa. Para que a matriz A tenha uma matriz inversa, seu determinante deve ser diferente de zero.
+
+                <br>
+                <br>
+
+                As fórmulas para calcular os elementos da matriz inversa B a partir dos elementos da matriz A são mais
+                complexas e envolvem cofatores e o adjunto da matriz A. As fórmulas podem ser um pouco extensas, mas
+                basicamente envolvem cálculos com os elementos da matriz original e os determinantes das submatrizes.
+            </p>
+
+            <h4 class="purple">IMPORTANTE!</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">1 -</b> Se A e B são matrizes quadradas de mesma ordem e ambas possuem inversas, então o
+                produto A × B também é
+                inversível, e a inversa de A × B é dada por B^(-1) × A^(-1). <br>
+
+                <b class="bold">2 -</b> Nem todas as matrizes têm uma inversa. <br>
+
+                <b class="bold">3 -</b> A matriz inversa é única para cada matriz.
+            </p>
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">Teorema: </b>Uma matriz quadrada A possui uma matriz inversa se e somente se
+                seu determinante det(A) é diferente de zero.
+            </p>
+
+            <h4 class="bold">A inversa de uma matriz de ordem 2 usando determinantes</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">Método Prático para a Inversa de Matrizes de Ordem 2:</b>
+
+                <br>
+                <br>
+
+                Para matrizes de ordem 2, podemos simplificar o processo de encontrar a matriz inversa observando um
+                padrão nas posições dos elementos em relação à matriz inversa. Siga os seguintes passos para tornar o
+                método mais prático:
+
+                <br>
+                <br>
+
+                <b class="bold">1 -</b> Calcule o determinante da matriz original. <br>
+                <b class="bold">2 -</b> Multiplique a matriz original por 1/det(A), onde det(A) é o determinante
+                calculado
+                no passo anterior. <br>
+                <b class="bold">3 -</b> Troque os elementos da diagonal principal. <br>
+                <b class="bold">4 -</b> Multiplique os elementos da diagonal secundária por (-1). <br>
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criptografia 1.png" alt="pa1">
+            </div>
+
+            <h4 class="bold">A inversa de uma matriz de ordem 3 usando determinantes</h4>
+
+            <p class="introduction-text introduction-text-max-width">
+                <b class="bold">Método prático para a Inversa de matrizes de ordem 3.</b>
+
+                <br>
+                <br>
+
+                Para encontrar a matriz inversa de A, seguir os passos abaixo.
+
+                <br>
+                <br>
+
+                <b class="bold">1 -</b> Calcular o determinante de A. <br>
+                <b class="bold">2 -</b> Repetir as duas primeiras colunas da matriz dada e, depois, repetir as
+                duas primeiras linhas, ficando uma matriz 5x5. <br>
+                <b class="bold">3 -</b>Cancelar a primeira linha e primeira coluna. <br>
+                <b class="bold">4 -</b>Realizar o determinante de matrizes 2x2 dentro desta matriz grande, <br>
+                conforme o desenho. <br>
+                <b class="bold">5 -</b>Esses determinantes irão compor uma nova matriz 3x3, chamada de
+                Matriz Adjunta. Mas CUIDADO! Os determinantes da mesma linha irão
+                compor os elementos da coluna da nova matriz. <br>
+                <b class="bold">6 -</b>Dividir cada elemento da matriz adjunta pelo determinante de A e
+                chegamos na matriz inversa.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criptografia 2.png" alt="pa1">
+            </div>
+
+            <span class="spacing"></span>
+
+            <h3 class="introduction-subtitle introduction-subtitle-center">Criptografia</h3>
+
+            <p class="introduction-text introduction-text-max-width">
+                A necessidade de preservar mensagens confidenciais, de importância significativa, de forma a permitir
+                que somente indivíduos autorizados as decifrem, tem sido uma constante na sociedade ao longo dos
+                milênios, desde os tempos do antigo Egito até os dias de hoje, abrangendo épocas de conflito e
+                culminando nas eras modernas. A criptografia, originada das palavras gregas "kryptós" que significa
+                secreto e oculto, e "gráphein", que significa escrever, é um conjunto de técnicas que possibilita a
+                codificação de mensagens de maneira que apenas o remetente original e o destinatário legítimo possam
+                interpretá-las. Nos tempos atuais, a criptografia encontra aplicação em transações eletrônicas, como
+                transações bancárias online, bem como em diversas situações cotidianas que requerem comunicações
+                confidenciais para a transmissão de dados.
+
+                <br>
+                <br>
+
+                Diversas técnicas empregadas para a codificação e decodificação de mensagens secretas se fundamentam na
+                álgebra linear. Este texto apresenta um método notavelmente simples que envolve um par de matrizes
+                inversas, A e A^(-1), cujos elementos são inteiros.
+
+                <br>
+                <br>
+
+                Observa-se que A A^(-1) = I (realize os cálculos para verificar). Dessa forma, a matriz A^(-1) é a
+                inversa da matriz A. Nesse método de criptografia, o emissor da mensagem utiliza a matriz A para
+                criptografar, enquanto o destinatário utiliza A^(-1) para decodificar. A finalidade deste método é
+                codificar a mensagem utilizando pares de caracteres, de maneira que a mensagem não possa ser decifrada
+                facilmente, por exemplo, através de uma tabela de frequência de letras ou similar, o que seria vantajoso
+                para um decodificador não autorizado.
+
+                <br>
+                <br>
+
+                O próximo passo consiste em criar uma tabela de correspondência, convertendo o alfabeto em números para
+                possibilitar as operações necessárias. Para tal, utilizaremos a seguinte tabela de conversão:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criptografia 3.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Agora, vamos codificar a mensagem "OS NÚMEROS GOVERNAM O MUNDO." usando a tabela que mencionamos antes.
+                Vamos atribuir um número a cada letra e pontuação.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criprografia 4.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Já que a matriz de codificação tem duas linhas por duas colunas, só precisamos organizar os números em
+                uma matriz de duas linhas. Então, a matriz da mensagem vai ficar assim:
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criptografia 5.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Agora, para codificar a mensagem, basta multiplicarmos a matriz M pela matriz de codificação A, o que
+                resulta na matriz N:
+
+                <br>
+                <br>
+
+                <b class="bold"> N = A ⋅ M</b>
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criptografar 6.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Em seguida, ele utiliza a matriz decodificadora A
+                -1 para reverter os
+                passos acima. Para tal,ele aplica a seguinte propriedade da multiplicação
+                de matrizes:
+
+                <br>
+                <br>
+
+                <b class="bold"> A - 1 ∙ N = M</b>
+
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criptografia 7.png" alt="pa1">
+            </div>
+            <div class="pa-images">
+                <img src="images/criptografia 8.png" alt="pa1">
+            </div>
+
+            <p class="introduction-text introduction-text-max-width">
+                Agora, a gente pega essa matriz e transforma em uma sequência de números, depois procuramos as letras
+                que correspondem a cada número.
+            </p>
+
+            <div class="pa-images">
+                <img src="images/criprografia 4.png" alt="pa1">
+            </div>
+        </div>
+    </div>
+
+    <div class=" spacing"></div>
+
+    <div class="back-top-container">
+        <a href="autoavaliacao.html"><button class="back-top-button">autoavaliação</button></a>
+
+    </div>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
